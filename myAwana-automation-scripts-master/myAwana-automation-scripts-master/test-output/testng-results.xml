@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="101800" started-at="2018-04-19T21:32:19Z" finished-at="2018-04-19T21:34:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="101800" started-at="2018-04-19T21:32:19Z" finished-at="2018-04-19T21:34:01Z">
+      <class name="SocialMediaLoginRegister.NewUserFlow">
+        <test-method status="PASS" signature="initReport()[pri:0, instance:SocialMediaLoginRegister.NewUserFlow@73846619]" name="initReport" is-config="true" duration-ms="223" started-at="2018-04-20T03:02:19Z" finished-at="2018-04-20T03:02:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReport -->
+        <test-method status="PASS" signature="initGlobalVar()[pri:0, instance:SocialMediaLoginRegister.NewUserFlow@73846619]" name="initGlobalVar" is-config="true" duration-ms="3" started-at="2018-04-20T03:02:19Z" finished-at="2018-04-20T03:02:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initGlobalVar -->
+        <test-method status="PASS" signature="initApplication(java.lang.String)[pri:0, instance:SocialMediaLoginRegister.NewUserFlow@73846619]" name="initApplication" is-config="true" duration-ms="4119" started-at="2018-04-20T03:02:19Z" finished-at="2018-04-20T03:02:23Z">
+=======
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-04-18T12:10:45Z" name="Default suite" finished-at="2018-04-18T12:11:35Z" duration-ms="50845">
+    <groups>
+    </groups>
+    <test started-at="2018-04-18T12:10:45Z" name="Default test" finished-at="2018-04-18T12:11:35Z" duration-ms="50845">
+      <class name="Sprint7.VerifyEditprofile">
+        <test-method is-config="true" signature="initReport()[pri:0, instance:Sprint7.VerifyEditprofile@359df09a]" started-at="2018-04-18T17:40:44Z" name="initReport" finished-at="2018-04-18T17:40:45Z" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReport -->
+        <test-method is-config="true" signature="initGlobalVar()[pri:0, instance:Sprint7.VerifyEditprofile@359df09a]" started-at="2018-04-18T17:40:45Z" name="initGlobalVar" finished-at="2018-04-18T17:40:45Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initGlobalVar -->
+        <test-method is-config="true" signature="initApplication(java.lang.String)[pri:0, instance:Sprint7.VerifyEditprofile@359df09a]" started-at="2018-04-18T17:40:45Z" name="initApplication" finished-at="2018-04-18T17:40:49Z" duration-ms="4136" status="PASS">
+>>>>>>> 871727c185ead75842428da1e020f909a234c5c5
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApplication -->
+<<<<<<< HEAD
+        <test-method status="PASS" signature="preCondition(java.lang.reflect.Method)[pri:0, instance:SocialMediaLoginRegister.NewUserFlow@73846619]" name="preCondition" is-config="true" duration-ms="7194" started-at="2018-04-20T03:02:23Z" finished-at="2018-04-20T03:02:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void SocialMediaLoginRegister.NewUserFlow.verifyNewUserEndToEndFlow() throws java.lang.Throwable]]>
+=======
+        <test-method is-config="true" signature="preCondition(java.lang.reflect.Method)[pri:0, instance:Sprint7.VerifyEditprofile@359df09a]" started-at="2018-04-18T17:40:49Z" name="preCondition" finished-at="2018-04-18T17:41:06Z" duration-ms="17537" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Sprint7.VerifyEditprofile.editProfile() throws java.lang.Throwable]]>
+>>>>>>> 871727c185ead75842428da1e020f909a234c5c5
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+<<<<<<< HEAD
+        <test-method status="PASS" signature="verifyNewUserEndToEndFlow()[pri:0, instance:SocialMediaLoginRegister.NewUserFlow@73846619]" name="verifyNewUserEndToEndFlow" duration-ms="89575" started-at="2018-04-20T03:02:30Z" finished-at="2018-04-20T03:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewUserEndToEndFlow -->
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:SocialMediaLoginRegister.NewUserFlow@73846619]" name="postCondition" is-config="true" duration-ms="3" started-at="2018-04-20T03:04:00Z" finished-at="2018-04-20T03:04:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyNewUserEndToEndFlow status=SUCCESS method=NewUserFlow.verifyNewUserEndToEndFlow()[pri:0, instance:SocialMediaLoginRegister.NewUserFlow@73846619] output={null}]]]>
+=======
+        <test-method signature="editProfile()[pri:0, instance:Sprint7.VerifyEditprofile@359df09a]" started-at="2018-04-18T17:41:06Z" name="editProfile" finished-at="2018-04-18T17:41:35Z" duration-ms="28205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editProfile -->
+        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:Sprint7.VerifyEditprofile@359df09a]" started-at="2018-04-18T17:41:35Z" name="postCondition" finished-at="2018-04-18T17:41:35Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=editProfile status=SUCCESS method=VerifyEditprofile.editProfile()[pri:0, instance:Sprint7.VerifyEditprofile@359df09a] output={null}]]]>
+>>>>>>> 871727c185ead75842428da1e020f909a234c5c5
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+<<<<<<< HEAD
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:SocialMediaLoginRegister.NewUserFlow@73846619]" name="closeApplication" is-config="true" duration-ms="890" started-at="2018-04-20T03:04:00Z" finished-at="2018-04-20T03:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="publishReport()[pri:0, instance:SocialMediaLoginRegister.NewUserFlow@73846619]" name="publishReport" is-config="true" duration-ms="302" started-at="2018-04-20T03:04:01Z" finished-at="2018-04-20T03:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publishReport -->
+      </class> <!-- SocialMediaLoginRegister.NewUserFlow -->
+=======
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:Sprint7.VerifyEditprofile@359df09a]" started-at="2018-04-18T17:41:35Z" name="closeApplication" finished-at="2018-04-18T17:41:35Z" duration-ms="941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="publishReport()[pri:0, instance:Sprint7.VerifyEditprofile@359df09a]" started-at="2018-04-18T17:41:36Z" name="publishReport" finished-at="2018-04-18T17:41:36Z" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publishReport -->
+      </class> <!-- Sprint7.VerifyEditprofile -->
+>>>>>>> 871727c185ead75842428da1e020f909a234c5c5
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

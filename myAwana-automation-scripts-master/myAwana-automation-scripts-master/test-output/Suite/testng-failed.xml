@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<<<<<<< HEAD
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+=======
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+>>>>>>> 871727c185ead75842428da1e020f909a234c5c5
+  <test name="Test(failed)">
+    <classes>
+      <class name="Sprint2.ValidateProfileErrorMessage">
+        <methods>
+          <include name="validateProfileErrorMessage"/>
+<<<<<<< HEAD
+          <include name="preCondition"/>
+          <include name="closeApplication"/>
+          <include name="initApplication"/>
+=======
+          <include name="initGlobalVar"/>
+          <include name="publishReport"/>
+          <include name="preCondition"/>
+          <include name="closeApplication"/>
+          <include name="initApplication"/>
+          <include name="initReport"/>
+>>>>>>> 871727c185ead75842428da1e020f909a234c5c5
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- Sprint2.ValidateProfileErrorMessage -->
+      <class name="Sprint2.VerifyProfileAutoPopulatesDetails">
+        <methods>
+<<<<<<< HEAD
+          <include name="initGlobalVar"/>
+          <include name="publishReport"/>
+          <include name="preCondition"/>
+          <include name="closeApplication"/>
+          <include name="initApplication"/>
+          <include name="initReport"/>
+          <include name="verifyProfileAutoPopulateDetails"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- Sprint2.VerifyProfileAutoPopulatesDetails -->
+      <class name="Sprint2.VerifyNoOrdersToDispayMessage">
+        <methods>
+          <include name="preCondition"/>
+          <include name="closeApplication"/>
+          <include name="verifyNoOrderToDispalyMessage"/>
+          <include name="initApplication"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- Sprint2.VerifyNoOrdersToDispayMessage -->
+=======
+          <include name="preCondition"/>
+          <include name="closeApplication"/>
+          <include name="initApplication"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- Sprint2.VerifyProfileAutoPopulatesDetails -->
+      <class name="com.myaw.scripts.RecentOrderFiveByDefault">
+        <methods>
+          <include name="preCondition"/>
+          <include name="closeApplication"/>
+          <include name="initApplication"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- com.myaw.scripts.RecentOrderFiveByDefault -->
+      <class name="com.myaw.scripts.VerifyPaginationLinks">
+        <methods>
+          <include name="preCondition"/>
+          <include name="verifyPaginationLinks"/>
+          <include name="closeApplication"/>
+          <include name="initApplication"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- com.myaw.scripts.VerifyPaginationLinks -->
+      <class name="com.myaw.scripts.VerifyViewAllOrders">
+        <methods>
+          <include name="preCondition"/>
+          <include name="closeApplication"/>
+          <include name="initApplication"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- com.myaw.scripts.VerifyViewAllOrders -->
+      <class name="com.myaw.scripts.VerifyMyRecentOrderHeaders">
+        <methods>
+          <include name="preCondition"/>
+          <include name="closeApplication"/>
+          <include name="initApplication"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- com.myaw.scripts.VerifyMyRecentOrderHeaders -->
+      <class name="com.myaw.scripts.MyAccountTab">
+        <methods>
+          <include name="preCondition"/>
+          <include name="closeApplication"/>
+          <include name="initApplication"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- com.myaw.scripts.MyAccountTab -->
+>>>>>>> 871727c185ead75842428da1e020f909a234c5c5
+      <class name="Sprint2.ChangePasswordErrorMessage">
+        <methods>
+          <include name="preCondition"/>
+          <include name="closeApplication"/>
+          <include name="initApplication"/>
+<<<<<<< HEAD
+          <include name="changePasswordErrorMessage"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- Sprint2.ChangePasswordErrorMessage -->
+=======
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- Sprint2.ChangePasswordErrorMessage -->
+      <class name="com.myaw.scripts.ValidateProfileSuccessMessage">
+        <methods>
+          <include name="preCondition"/>
+          <include name="closeApplication"/>
+          <include name="initApplication"/>
+          <include name="validateProfileSuccessMessage"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- com.myaw.scripts.ValidateProfileSuccessMessage -->
+      <class name="com.myaw.scripts.ChangePasswordInvalidInputs">
+        <methods>
+          <include name="changePasswordInvalidInputs"/>
+          <include name="preCondition"/>
+          <include name="closeApplication"/>
+          <include name="initApplication"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- com.myaw.scripts.ChangePasswordInvalidInputs -->
+      <class name="com.myaw.scripts.VerifyLeftMenuItemsOnDashboard">
+        <methods>
+          <include name="preCondition"/>
+          <include name="closeApplication"/>
+          <include name="initApplication"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- com.myaw.scripts.VerifyLeftMenuItemsOnDashboard -->
+      <class name="com.myaw.scripts.VerifyMenuHeaderLinks">
+        <methods>
+          <include name="preCondition"/>
+          <include name="closeApplication"/>
+          <include name="verifyMenuHeaderLinks"/>
+          <include name="initApplication"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- com.myaw.scripts.VerifyMenuHeaderLinks -->
+      <class name="com.myaw.scripts.DashBoardHeaderMenu">
+        <methods>
+          <include name="preCondition"/>
+          <include name="closeApplication"/>
+          <include name="initApplication"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- com.myaw.scripts.DashBoardHeaderMenu -->
+>>>>>>> 871727c185ead75842428da1e020f909a234c5c5
+      <class name="Sprint2.ChangePasswordSuccessMessage">
+        <methods>
+          <include name="preCondition"/>
+          <include name="closeApplication"/>
+<<<<<<< HEAD
+          <include name="changePasswordSuccessMessage"/>
+=======
+>>>>>>> 871727c185ead75842428da1e020f909a234c5c5
+          <include name="initApplication"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- Sprint2.ChangePasswordSuccessMessage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,46 @@
+Steps:
+
+1. Go to https://github.com/
+2. Click on Create a new repository
+3. Enter Repository name 
+4. Click on create repository - https://github.com/PrashanthHiroli/CBT5.git
+5. Go to cmd
+6. copy testng.xml path
+7. open cmd go to path
+8. type dir - check for testng.xml file
+9. git config --global user.email "prashant.hiroli@gmail.com"
+9. type git init
+10. git add .        (to put all files)
+11. git commit -m "first commit"
+12. git remote add origin https://github.com/PrashanthHiroli/CBT5.git --> used to specify address (URI) of remote repository present in github.com and now 
+onword it is referred with short name origin
+13. git push -u origin master
+14.
+
+Add file in project folder - testng (test2.java)
+15. git add .
+16. git commit -m "add file"
+17. git push -u origin master
+ 
+if we add any new file or modify the existing file or delete unwanted file then we should following command to update in online repository
+
+15. git add .
+16. git commit -m "add file"
+17. git push -u origin master
+
+In order to get updated information from online repository into local system we use following command
+18. git pull origin
+
+
+login into jenkins and go to manage jenkins
+1. click on manage plugings
+2. click on available tab - git hub authentication plugin
+3. github integration plugin 
+4. click on install without restart
+5. search maven - maven integration plugin - click on install without restart
+6. go to genkins - click on new item (project) - see maven project icon
+7. enter name - select maven - click OK
+8. it should display - git radion button under source code management
+
+
+7. 

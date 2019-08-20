@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="Test">
+        <packages>
+            <package name="AddYourChurch"/>
+            <package name="ChangePassword"/>
+            <package name="ChurchDashboard"/>
+            <package name="ChurchProfile"/>
+            <package name="ManageLeaders"/>
+            <package name="ManagePrograms"/>
+            <package name="MyDashboard"/>
+            <package name="MyOrders"/>
+            <package name="MyProfile"/>
+            <package name="ProfileAndSettings"/>
+            <package name="RolesPermission"/>
+            <package name="SocialMediaLoginRegister"/>
+        </packages>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

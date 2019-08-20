@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<<<<<<< HEAD
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="ManageLeaders.ManageLeaderUpdate">
+        <methods>
+          <include name="initGlobalVar"/>
+          <include name="publishReport"/>
+          <include name="preCondition"/>
+          <include name="closeApplication"/>
+          <include name="initApplication"/>
+          <include name="initReport"/>
+          <include name="manageLeaderUpdate"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- ManageLeaders.ManageLeaderUpdate -->
+=======
+<suite thread-count="-1" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Sprint7.VerifyEditprofile">
+        <methods>
+          <include name="publishReport"/>
+          <include name="initGlobalVar"/>
+          <include name="preCondition"/>
+          <include name="closeApplication"/>
+          <include name="editProfile"/>
+          <include name="initApplication"/>
+          <include name="initReport"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- Sprint7.VerifyEditprofile -->
+>>>>>>> 871727c185ead75842428da1e020f909a234c5c5
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,33 @@
+
+7squid:S30102" Remove this assignment of "log".(îõÅÁ
+@squid:S1444&")Make this "public static log" field final(ÖÌåâ
+@squid:S1444'")Make this "public static url" field final(éç¹
+Dsquid:S1444("(Make this "public static un" field final(ßâËæüÿÿÿÿ
+Dsquid:S1444)"(Make this "public static pw" field final(ÅÏ¯¦şÿÿÿÿ
+Jsquid:S1444*".Make this "public static iTimeout" field final(º¶Íòùÿÿÿÿ
+Dsquid:S1444+".Make this "public static eTimeout" field final(—˜«
+Isquid:S1444,"-Make this "public static eReport" field final(Üúúÿÿÿÿ
+bsquid:CommentedOutCodeLineR"<This block of commented-out lines of code should be removed.(èš™¢
+bsquid:CommentedOutCodeLine}"<This block of commented-out lines of code should be removed.(·¯ª…
+csquid:CommentedOutCodeLineˆ"<This block of commented-out lines of code should be removed.(ˆ£ñ…
+hsquid:CommentedOutCodeLineŒ"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+Rsquid:S2696;"6Make the enclosing method "static" or remove this set.(ì¤ºäüÿÿÿÿ
+Msquid:S2696H"6Make the enclosing method "static" or remove this set.(îí–¥
+Rsquid:S2696I"6Make the enclosing method "static" or remove this set.(©ÊŠêıÿÿÿÿ
+Msquid:S2696J"6Make the enclosing method "static" or remove this set.(ù¬Çâ
+Msquid:S2696K"6Make the enclosing method "static" or remove this set.(ëïğ
+Msquid:S2696L"6Make the enclosing method "static" or remove this set.(Î¹İ
+…"squid:ClassVariableVisibilityCheck""RMake driver a static final constant or non-public and provide accessors if needed.(ÔèË©úÿÿÿÿ
+"squid:ClassVariableVisibilityCheck#"QMake eTest a static final constant or non-public and provide accessors if needed.(èö›Ô
+„"squid:ClassVariableVisibilityCheck$"VMake reportFile a static final constant or non-public and provide accessors if needed.(ËõÑä
+}"squid:ClassVariableVisibilityCheck&"OMake log a static final constant or non-public and provide accessors if needed.(ÖÌåâ
+}"squid:ClassVariableVisibilityCheck'"OMake url a static final constant or non-public and provide accessors if needed.(éç¹
+"squid:ClassVariableVisibilityCheck("NMake un a static final constant or non-public and provide accessors if needed.(ßâËæüÿÿÿÿ
+"squid:ClassVariableVisibilityCheck)"NMake pw a static final constant or non-public and provide accessors if needed.(ÅÏ¯¦şÿÿÿÿ
+‡"squid:ClassVariableVisibilityCheck*"TMake iTimeout a static final constant or non-public and provide accessors if needed.(º¶Íòùÿÿÿÿ
+"squid:ClassVariableVisibilityCheck+"TMake eTimeout a static final constant or non-public and provide accessors if needed.(—˜«
+†"squid:ClassVariableVisibilityCheck,"SMake eReport a static final constant or non-public and provide accessors if needed.(Üúúÿÿÿÿ
+Œ"squid:ClassVariableVisibilityCheck."YMake loginRequired a static final constant or non-public and provide accessors if needed.(Ãö”Êıÿÿÿÿ
+ˆ"squid:ClassVariableVisibilityCheck/"ZMake logoutRequired a static final constant or non-public and provide accessors if needed.(‹ˆ±Ñ
+@squid:S1481y")Remove this unused "path" local variable.(¼ç™£
+Osquid:S1854y"8Remove this useless assignment to local variable "path".(¼ç™£

@@ -1,0 +1,47 @@
+bat file (command) to execute all test cases from testng.xml
+java -cp bin;jars/* org.testng.TestNG testng.xml &pause
+
+Install older version of TestNG 
+1. Help - > Install new software (uninstall jenkins if previously installed)
+2. Click Add 
+3. Enter name - Testng
+4. location : http://beust.com/eclipse-old/eclipse_6.9.12.jar
+
+Copy four TestNg jars into jars folder then make a bat file
+1. install and run testng.xml suite (if working fine then)
+2. Expand (Go to) TestNg (Referenced Libraries) there will be four jars with path of each file
+	1. testng.jar 2. jcommander.jar 3. bsh-2.0b4.jar 4. snakeyaml.jar
+3. select testng.jar -> Right Click -> Properties -> coverage(default) -> selct Java Source Attachment -> External Location
+ -> copy the path -> open from cammand prompt -> 
+ path -> C:/Users/AL2079/.p2/pool/plugins/org.testng.eclipse_6.9.12/lib/
+4. Copy above four jars into project jars folder
+
+5. Go to Project Folder where testng.xml file &.bin &settings folder is present (EX: C:\Giit\HRMA\testng.xml...)
+6. open text file type above command 
+	java -cp bin;jars/* org.testng.TestNG testng.xml &pause
+7. save as run.bat (same location where testng.xml file is present)
+8. double click on bat file to execute 
+
+
+Install Jenkins and configure testng bat file 
+1. Copy Jenkins.war into D:/ drive
+2. In D:/ drive create a bat fle with the name jenkins.bat (open note pad and type below command)
+	java -jar jenkins.war   -> save as jenkins.bat
+3. Double click on .bat file - > Command prompt opens & starts installation -> wait till finished download metadata shows
+4. Open the chrome browser -> type -> localhost:8080/
+5. Unlock Jenkins administrator password screen gets displayed
+6. Go to path (as displayed in above message ) open in text file -> copy password & paste -> 
+7. Select non from top right croner screen (plugins to select none)
+8. set user name "admin", password, confirm password, full name ="admin"
+9. Start Jenkins using 
+10. Create New Item - Top righ corner
+11. Enter an item name - Project name - (CBT1)
+12. Select Free Style project & click ok
+13. Enter project name (CBT1)
+14. Click on Advanced -> Select "use custom workspace" checkbox -> Directory - path : "D:/newfolder/CBT1
+15. Go to build section -> Enter command (run.bat) 
+16. click on save and apply 
+
+17. Go to bukld triggers - Select build periodically -> schedule -> 50 16 * * *
+
+save and click on build 

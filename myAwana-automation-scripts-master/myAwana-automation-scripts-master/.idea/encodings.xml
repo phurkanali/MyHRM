@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/MyDashboard/MyDashboard.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/MyDashboard/VerifyDefaultFiveLInks.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/MyDashboard/VerifyElementsAreSorted.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/MyDashboard/VerifyNoOrderToDispalyMessage.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/MyDashboard/VerifyOrderToDisplay.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/MyDashboard/VerifyShopNowLink.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/MyDashboard/VerifyViewAllOrders.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/MyOrders/MyOrdersDefaultTenLInks.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/MyOrders/MyOrdersNoOrderToDispalyMessage.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/MyOrders/MyOrdersPagination.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/MyOrders/MyOrdersToDisplay.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/MyOrders/VerifyMyOrderTab.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/SocialMediaLoginRegister/NewUserFlow.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Sprint2/VerifyNoOrdersToDispayMessage.java" charset="ISO-8859-1" />
+  </component>
+</project>

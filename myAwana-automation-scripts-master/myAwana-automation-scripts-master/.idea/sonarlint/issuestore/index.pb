@@ -1,0 +1,43 @@
+
+U
+%src/MyProfile/VerifyCancelButton.java,9\2\929fc8ba9d0f5d7a5d1d147f5cc3e9d97af74d66
+^
+.src/com/myaw/pages/LeftPaneNavigationPage.java,4\8\48d23370eea6ab24100882e66b42c86366f1ac7e
+_
+/src/MyProfile/VerifyBillingShippingAddress.java,d\9\d94b2ea60540ff57e850cc426fe1b677175d8c7d
+S
+#src/LoginLogout/LoginAndLogout.java,d\2\d2b2b16e3857e6453a5222ff32deb6fe1dfe00c9
+]
+-src/SocialMediaLoginRegister/NewUserFlow.java,9\2\9298ec1a0e4a4c303badd482a9dd49bcafd9ba06
+T
+$src/MyOrders/MyOrdersPagination.java,5\e\5ebb852ae548b805abc15e94b0e4a9168d5c797a
+U
+%src/MyOrders/MyOrdersShopNowLink.java,e\b\ebd24dd8adb41b99241acbe9acd71641de20272c
+a
+1src/MyOrders/MyOrdersNoOrderToDispalyMessage.java,5\8\580e0e23e81c89f96823669e21cced56816562dc
+Y
+)src/ManageLeaders/ManageLeaderUpdate.java,b\9\b9645a29209bb326315a5c83732849708a97dc8b
+Q
+!src/com/myaw/pages/LoginPage.java,c\7\c7b5baa417495e485aa42c4738caee151f03381e
+Z
+*src/com/myaw/pages/ApproveLeadersPage.java,5\5\5571c59da4c0be445e560c837f3ff84743233e9a
+Y
+)src/com/myaw/pages/AddYourChurchPage.java,6\e\6e77719b242be50d2c2a9f23f6f98b8e73791181
+T
+$src/AddYourChurch/AddYourChurch.java,f\9\f99a05cd975f32202e65c126e97a1aa624149c38
+W
+'src/com/myaw/pages/DashboardScreen.java,b\0\b0efdc426a762794900492e7cf636fcfcb270893
+P
+ src/MyProfile/EditMyProfile.java,1\f\1f8e1d3395afb0e525dc31413fca3d66e1342dbc
+]
+-src/RolesPermission/CheckRolesPermission.java,9\0\90727113f707c5d541dcaf9ba69a3fc79fd19210
+b
+2src/ManageLeaders/AddUserNonExistingAwanaUser.java,a\6\a643429c1fce73f3e6e787f44e87b5c3dbc37585
+U
+%src/com/myaw/pages/DashboardPage.java,f\9\f9ee44f91af1483c4d661a769ae89800bd396a73
+S
+#src/MyOrders/MyOrdersToDisplay.java,0\1\019f733a5a934740cb72f5dee86c2010a68bc012
+O
+src/com/myaw/base/BasePage.java,e\7\e7efde689f169062a96e88f8ed77c96bf962657b
+O
+src/com/myaw/base/BaseTest.java,5\d\5da4920421d0601553d63d2b9705da90b62af555
